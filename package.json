@@ -1,0 +1,19 @@
+{
+  "name": "cypress-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "CYPRESS_RUN_BINARY=./Cypress/Cypress yarn cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node ./setup.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^5.3.0"
+  },
+  "devDependencies": {
+    "electron": "^27.0.2"
+  }
+}
